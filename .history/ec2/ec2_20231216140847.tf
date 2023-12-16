@@ -78,9 +78,9 @@ resource "aws_instance" "web_server" {
 
   # best practices as per checkov scanner
    monitoring    = true
-   ebs_optimized = true
-   root_block_device {
-     encrypted = true
-   }
+  # ebs_optimized = true
+  # root_block_device {
+  #   encrypted = true
+  # }
 
 }
