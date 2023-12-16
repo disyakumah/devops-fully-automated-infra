@@ -13,7 +13,7 @@ module "ec2_dev" {
   name          = "dev"
   tags          = local.common_tags
   iam_role_name = module.iam.ec2_iam_role_name
-  key_pair_name = "Gladis_accessKeys "
+  key_pair_name = "Gladis_accessKeys (1)"
 }
 
 # module code to create the ec2 instance with user data
